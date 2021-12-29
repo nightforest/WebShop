@@ -1,0 +1,38 @@
+.input {
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #333;
+  font-weight: 400;
+  padding: 5px 15px;
+  height: 40px;
+  transition: all 0.5s ease;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  width: 100%;
+  display: block;
+}
+.input:hover, .input:focus {
+  border-color: #22a6b3;
+}
+.input::-webkit-input-placeholder {
+  color: #555;
+  font-weight: 300;
+}
+.input:-moz-placeholder {
+  color: #555;
+  font-weight: 300;
+}
+.input::-moz-placeholder {
+  color: #555;
+  font-weight: 300;
+}
+.input:-ms-input-placeholder {
+  color: #555;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=Input.css.map */

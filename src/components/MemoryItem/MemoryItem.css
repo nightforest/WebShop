@@ -1,0 +1,22 @@
+.memory-item {
+  padding: 5px;
+  background: #c2c2c2;
+  font-size: 12px;
+  margin-right: 7px;
+  line-height: 1;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.memory-item:last-child {
+  margin-right: 0;
+}
+.memory-item:hover {
+  background: #ff7979;
+}
+.memory-item.is-active {
+  color: #fff;
+  background: #ff7979;
+}
+
+/*# sourceMappingURL=MemoryItem.css.map */

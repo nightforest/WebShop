@@ -1,0 +1,38 @@
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cart__icon {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.cart__icon:hover {
+  fill: #22a6b3;
+}
+.cart__count {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #ff7979;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  font-weight: 700;
+}
+.cart__total-price {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=CartBlock.css.map */

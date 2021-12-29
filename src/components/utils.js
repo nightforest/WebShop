@@ -1,0 +1,1 @@
+export const calcTotalPrice = items => items.reduce((acc, product) => acc += product.types[product.activeMemory].price, 0)
